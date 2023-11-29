@@ -1,0 +1,145 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+*{
+    text-decoration: none;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color:gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    top: 0;
+    width:100%;
+    height: 150px;
+    
+    
+
+
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo a{
+    font-size: 56px ;
+    font-weight: 600;
+    color:white(7, 7, 7);
+    background-color:purple;
+    
+}
+li{
+    list-style:none;
+    display: inline-block;
+}
+li a{
+    color: yellow;
+    font-size: 42px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button{
+    background-color: purple;
+    margin: 0px;
+    border-radius: 10px;
+    padding: 0;
+    width: 150px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+li a:hover{
+    color: white;
+}
+
+<!-- li a::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: green;
+    display: inline-block;
+    margin: 10px;
+} --!>
+li a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+    margin-top: 5px;
+}
+
+.text{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-weight: 900;
+    font-size: 55px;
+    text-align:start;
+    text-transform: uppercase;
+    margin-top: 230px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div img{
+    width: 600px;
+    height: 900px;
+    border: 2px solid white;
+    border-radius: 18px;
+    box-shadow: 4px 7px 7px 0 rgb(19, 18, 18);
+    cursor: pointer;
+    margin: 30px;
+    transition: 400ms;
+}
+div img:hover{
+    filter:contrast(2);
+    transform: scale(1.03);
+}
+h1{
+    font-size: 66px;
+    color: whitesmoke;
+}
+h1 a{
+    color: whitesmoke;
+}
+h2{
+    font-size: 56px;
+    color:black;
+    margin-left: 50px;
+}
+h5{
+    font-size: 56px;
+    margin-left: 70px;
+    color: yellow;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+.collectionbg{
+    background-image: linear-gradient(to right, #000000, #232121, #413e3b, #5d5d58, #797f79);
+}
